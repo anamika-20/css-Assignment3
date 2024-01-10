@@ -1,0 +1,59 @@
+/* Global container styles */
+.container {
+  width: 800px;
+  height: 500px;
+  align-items: center;
+  margin: 100px 400px 20px 400px; /* Shorthand for margin */
+  border: 0.5px solid; /* Shorthand for border style and width */
+}
+
+.content {
+  margin: 20px;
+}
+
+/* Styles for pink background section */
+.pink_bg {
+  background-color: #ff9999;
+  text-align: center;
+  border: 0.5px solid;
+}
+
+.pink_bg h1,
+.pink_bg h3 {
+  font-weight: 200;
+  color: rgb(63, 63, 63);
+}
+
+/* Styles for box and its contents */
+.box {
+  display: flex;
+}
+
+.imagewithtext {
+  background-color: #ffff73;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.about_me {
+  background-color: #ececfb;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+}
+
+.about_me img {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.about_me h2 {
+  margin: 0 0 1px; /* Shorthand for margin */
+  font-weight: 200;
+}
+
+.about_me p {
+  color: rgb(63, 63, 63);
+  margin: 5px;
+  padding: 5px; /* Shorthand for padding */
+}
